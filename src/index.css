@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #242424;
+}
+
+body {
+  font-family: Courier;
+}
+
+h1 {
+  text-align: center;
+  color: #ccc;
+}
+
+.container {
+  padding: 20px;
+  max-width: 550px;
+  margin: 0 auto;
+  box-shadow: 0 8px 8px rgba(179, 9, 9, 0.4);
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4289d4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.text-style {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.image-upload {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.config-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.color-picker {
+  cursor: pointer;
+}
+
+.file-input {
+  cursor: pointer;
+}
